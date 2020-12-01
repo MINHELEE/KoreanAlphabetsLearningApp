@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtAbout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="-81dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:text="About Hangul (Hangeul).."
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/hangeul" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1dp"
+                android:paddingTop="16dp"
+                android:text="The Korean alphabet, known as Hangul (Hangeul) in South Korea, is a writing system for the Koran language created by King Sejong the Great in 1443."
+                android:textAlignment="viewStart"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:lineSpacingExtra="0dp"
+                android:paddingTop="16dp"
+                android:text="Modern Hangul orthography uses 29 basic letters: 19 consonant letters and 10 vowel letters that can be combined to form syllables. The syllabel must begin with a consonant, and it must contain at least one consonant and one vowel. "
+                android:textAlignment="viewStart"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

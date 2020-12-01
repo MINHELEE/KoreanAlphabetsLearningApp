@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Korean Alphabets Learning App</string>
+
+    <!-- Error messages -->
+    <string name="error_load_syllables">Failed to load file for syllables.</string>
+    <string name="error_load_vowels_progress">Failed to load progress status for vowels.</string>
+    <string name="error_load_vowels_default">Failed to load default file for vowels.</string>
+    <string name="error_load_consonants_progress">Failed to load progress status for consonants.</string>
+    <string name="error_load_consonants_default">Failed to load default file for consonants.</string>
+    <string name="error_save_vowels_progress">Failed to save progress status for vowels.</string>
+    <string name="error_save_consonants_progress">Failed to save progress status for consonants.</string>
+
+    <!-- Toolbar titles -->
+    <string name="toolbar_title_study">Study</string>
+    <string name="toolbar_title_vowels">Vowels</string>
+    <string name="toolbar_title_consonants">Consonants</string>
+    <string name="toolbat_title_about_hangul">About Hangul</string>
+    <string name="toolbar_title_review">Review</string>
+    <string name="toolbar_title_from_character">Choose the transcription</string>
+    <string name="toolbar_title_from_transcription">Choose the character</string>
+    <string name="toolbar_title_from_syllable_character">Choose the transcription</string>
+    <string name="toolbar_title_from_syllable_transcription">Choose the syllable</string>
+
+    <!-- Button texts -->
+    <string name="button_main_study">Study</string>
+    <string name="button_main_review">Review</string>
+    <string name="button_study_vowels">Vowels</string>
+    <string name="button_study_consonants">Consonants</string>
+    <string name="button_study_about_hangul">How Hangul works</string>
+    <string name="button_review_from_character">Find transcription</string>
+    <string name="button_review_from_transcription">Find character</string>
+    <string name="button_review_syllable_from_character">Find transcription of syllable</string>
+    <string name="button_review_syllable_from_transcription">Find syllable</string>
+
+    <!-- Popup window when pressing back in a quiz -->
+    <string name="popup_exit_quiz_text">Are you sure you want to exit the quiz?</string>
+    <string name="popup_yes">Yes</string>
+    <string name="popup_no">Cancel</string>
+
+    <!-- Popup window when trying to start a quiz without enough characters selected -->
+    <string name="popup_not_quiz_text">You need to select at least 2 characters to start doing quizzes</string>
+    <string name="popup_not_quiz_understood">Understood</string>
+
+    <!-- Information about the ListView elements in the character study section -->
+    <string name="character_column">Character</string>
+    <string name="transcription_column">Transcription</string>
+
+    <!-- Information about correctness of an answer in the quizzes -->
+    <string name="answer_correct_pre">Correct.&#160;</string>
+    <string name="answer_incorrect_pre">Incorrect.&#160;</string>
+    <string name="answer_mid">&#160;matches with&#160;</string>
+    <string name="title_activity_consonants">ConsonantsActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+</resources>
